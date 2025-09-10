@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<p>
+		<a href="index.html">Kiara</a> – portfolio
+	</p>
+	<!-- https://github.com/SpotTune/pdf-js-flipbook (ref du code) -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SpotTune/pdf-js-flipbook@v1.2.0/dist/flipbook.css">
+	<div id="Portfolio" style="height:100dvh"></div>
+	<script src="https://cdn.jsdelivr.net/gh/SpotTune/pdf-js-flipbook@v1.2.0/dist/flipbook.js"></script>
+	<script>
+  		const fb = Flipbook.mount({
+    	target: '#Portfolio',
+    	pdfUrl: 'sources/Woodford_Kiara_Savon.pdf'
+  		});
+  		fb.singleMode(false);     // force double-page
+	</script>
+</body>
+</html>
