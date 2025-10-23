@@ -1,36 +1,61 @@
-	@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+	@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
     *{
     	margin: 0;
-    	box-sizing: border-box;
-    	font-family: "IBM Plex Mono", monospace;
+        padding: 0;
+    	/* box-sizing: border-box; */
+        background-color: rgb(255, 255, 255);
+        font-family: "Inter", sans-serif;
+        color: rgb(0, 0, 0);
     }
-    body{
-    	color: rgb(255, 255, 255);
-    	/* background-image: url(photos/20250620_212324.jpg);
-    	background-size: cover; */
-    	background-color: black;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        font-weight: 500;
+    }
+
+    .titre{
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-bottom: 2vw;
+        display: flex;
+        justify-content: space-between;
+        font-size: 12vw;
+        font-weight: 300;
+        
+    }
+
+    .lien{
+        margin-top: 10vw;
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vw;
+        font-weight: 300;
+    }
+
+    .credit{
+        margin-top: 10vw;
+        padding: 1vw;
+        display: flex;
+        justify-content: center;
+        font-size: 1vw;
+        font-weight: 300;
+    }
+
+
+
+    /* body{
+    	color: rgb(0, 0, 0);
+    	background-image: url(photos/20250620_212324.jpg);
+    	background-size: cover;
 		min-height: 100vh;
     	display: flex;
     	justify-content: center;
         align-items: center;
         flex-direction: column;
-    }
-    a{
-        color:inherit;
-    }
-    h1{
-        font-size: 8vw;
-        font-weight: 300;
-        margin-bottom: 4vw;
-    }
-    h2{
-        font-size: 6vw;
-        font-weight: 300;
-        text-align: center;
-        max-width: 100vw;
-        margin-bottom: 4vw;
-    }
-    p{
-        font-size: 3vw;
-        font-weight: 300;
-    }
+    } */
