@@ -1,8 +1,8 @@
 	@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+   
     *{
     	margin: 0;
         padding: 0;
-    	/* box-sizing: border-box; */
         background-color: rgb(135, 199, 164);
         font-family: "Inter", sans-serif;
         color: rgb(0, 0, 0);
@@ -27,7 +27,7 @@
     }
 
     .lien{
-        margin-top: 10vw;
+        margin-top: 11vw;
         display: flex;
         flex-direction: column;
         gap: 3vw;
@@ -37,15 +37,13 @@
         font-weight: 300;
     }
 
-
-
-    /* body{
-    	color: rgb(0, 0, 0);
-    	background-image: url(photos/20250620_212324.jpg);
-    	background-size: cover;
-		min-height: 100vh;
-    	display: flex;
-    	justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    } */
+    .info{
+        margin-top: 11vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-bottom: 3vw;
+        display: flex;
+        justify-content: space-between;
+        font-size: 2vw;
+        font-weight: 300; 
+    }
