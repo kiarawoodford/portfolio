@@ -3,7 +3,7 @@
     	margin: 0;
         padding: 0;
     	/* box-sizing: border-box; */
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(135, 199, 164);
         font-family: "Inter", sans-serif;
         color: rgb(0, 0, 0);
     }
@@ -19,7 +19,6 @@
     .titre{
         padding-left: 2vw;
         padding-right: 2vw;
-        padding-bottom: 2vw;
         display: flex;
         justify-content: space-between;
         font-size: 12vw;
@@ -34,7 +33,7 @@
         gap: 3vw;
         justify-content: center;
         align-items: center;
-        font-size: 3vw;
+        font-size: 5vw;
         font-weight: 300;
     }
 
